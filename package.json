@@ -1,0 +1,19 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A simple Todo Web application built with React, Next.js, and Styled Components",
+  "main": "next.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAnouar-Ecommaroc/todo-app.git"
+  },
+  "author": "Anouar Mahmoud Bellakha",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DevAnouar-Ecommaroc/todo-app/issues"
+  },
+  "homepage": "https://github.com/DevAnouar-Ecommaroc/todo-app#readme"
+}
