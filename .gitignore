@@ -29,11 +29,17 @@ node_modules/
 # Optional npm cache directory
 .npm
 
+# NPM Lock file
+package-lock.json
+
 # Optional eslint cache
 .eslintcache
 
 # Yarn Integrity file
 .yarn-integrity
+
+# Yarn Lock file
+yarn.lock
 
 # dotenv environment variables file
 .env
