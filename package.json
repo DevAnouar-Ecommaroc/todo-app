@@ -13,7 +13,6 @@
   "homepage": "https://github.com/DevAnouar-Ecommaroc/todo-app#readme",
   "license": "UNLICENSED",
   "scripts": {
-    "lint:js": "eslint",
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
@@ -28,7 +27,7 @@
   "lint-staged": {
     "linters": {
       "*.{js,jsx}": [
-        "yarn lint:js --fix",
+        "yarn eslint --fix",
         "git add"
       ]
     },
