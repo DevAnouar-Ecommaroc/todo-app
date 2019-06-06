@@ -1,4 +1,9 @@
-import { configure } from "@storybook/react"; // eslint-disable-line import/no-extraneous-dependencies
+/* eslint-disable import/no-extraneous-dependencies */
+
+import { configure, addDecorator } from "@storybook/react";
+import { withKnobs } from "@storybook/addon-knobs";
+
+addDecorator(withKnobs);
 
 function loadStories() {
   const req = require.context("../stories", true, /.jsx$/);
