@@ -1,6 +1,6 @@
 {
   "name": "todo-app",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "Anouar Mahmoud Bellakha",
   "description": "A simple Todo Web application built with React, Next.js, and Styled Components",
   "repository": {
@@ -15,6 +15,7 @@
   "scripts": {
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
     "dev": "next",
     "build": "next build",
     "start": "next start"
@@ -41,8 +42,16 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
     "@babel/plugin-transform-flow-strip-types": "^7.4.4",
+    "@storybook/addon-a11y": "^5.1.1",
+    "@storybook/addon-actions": "^5.1.1",
+    "@storybook/addon-knobs": "^5.1.1",
+    "@storybook/addon-viewport": "^5.1.1",
+    "@storybook/addons": "^5.1.1",
+    "@storybook/react": "^5.1.1",
     "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.3.0",
