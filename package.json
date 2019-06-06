@@ -44,6 +44,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-transform-flow-strip-types": "^7.4.4",
+    "@storybook/addon-a11y": "^5.1.1",
     "@storybook/addon-actions": "^5.1.1",
     "@storybook/addon-knobs": "^5.1.1",
     "@storybook/addon-viewport": "^5.1.1",
