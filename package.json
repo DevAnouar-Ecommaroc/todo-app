@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "git add . && lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -44,6 +44,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-transform-flow-strip-types": "^7.4.4",
+    "@storybook/addons": "^5.1.1",
     "@storybook/react": "^5.1.1",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.6",
