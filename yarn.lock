@@ -1284,6 +1284,22 @@
     react-lifecycles-compat "^3.0.4"
     react-select "^2.2.0"
 
+"@storybook/addon-viewport@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-5.1.1.tgz#4430b647a2f75d89f13f82a0f817221b62e823c4"
+  integrity sha512-EpZB6lOn6Z0nTNnnInPGYAaQc+geeGM2ZG4ZIpR//RIrGMYRpka7iDC2hAvv2/KY0iVTwBpcNGUdvqC6Q1lscg==
+  dependencies:
+    "@storybook/addons" "5.1.1"
+    "@storybook/client-logger" "5.1.1"
+    "@storybook/components" "5.1.1"
+    "@storybook/core-events" "5.1.1"
+    "@storybook/theming" "5.1.1"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+    util-deprecate "^1.0.2"
+
 "@storybook/addons@5.1.1", "@storybook/addons@^5.1.1":
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.1.1.tgz#6457c4f60ae0cc49ad4919c45272b1cc181b217c"
