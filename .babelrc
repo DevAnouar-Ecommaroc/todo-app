@@ -3,6 +3,7 @@
     "next/babel"
   ],
   "plugins": [
-    "@babel/plugin-transform-flow-strip-types"
+    "@babel/plugin-transform-flow-strip-types",
+    "babel-plugin-styled-components"
   ]
 }
