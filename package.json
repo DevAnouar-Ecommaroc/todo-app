@@ -1,6 +1,6 @@
 {
   "name": "todo-app",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": "Anouar Mahmoud Bellakha",
   "description": "A simple Todo Web application built with React, Next.js, and Styled Components",
   "repository": {
