@@ -1,6 +1,7 @@
 import * as React from "react";
 import App, { Container } from "next/app";
-import { StyledFonts, StyledReset } from "../.styled-components";
+import { ThemeProvider } from "styled-components";
+import { theme, StyledFonts, StyledReset } from "../.styled-components";
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
@@ -19,11 +20,13 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
 
     return (
-      <Container>
-        <StyledFonts />
-        <StyledReset />
-        <Component {...pageProps} />
-      </Container>
+      <ThemeProvider theme={theme}>
+        <Container>
+          <StyledFonts />
+          <StyledReset />
+          <Component {...pageProps} />
+        </Container>
+      </ThemeProvider>
     );
   }
 }
