@@ -1,1 +1,4 @@
+
 !.storybook
+!.styled-components
+flow-typed
