@@ -1,8 +1,8 @@
 import { css } from "styled-components";
 
 const screens = {
-  'tablet': '640px',
-  'laptop': '1024px',
+  tablet: "640px",
+  laptop: "1024px",
 };
 
 const media = Object.keys(screens).reduce((accumulator, label) => {
