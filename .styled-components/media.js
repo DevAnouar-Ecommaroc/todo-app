@@ -7,7 +7,7 @@ const screens = {
 
 const media = Object.keys(screens).reduce((accumulator, label) => {
   accumulator[label] = (...args) => css`
-    @media (max-width: ${screens[label]}) {
+    @media (min-width: ${screens[label]}) {
       ${css(...args)}
     }
   `;

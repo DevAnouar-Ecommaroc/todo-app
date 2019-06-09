@@ -25,6 +25,12 @@ module.exports = {
     };
     config.module.rules.push(fontsRule);
 
+    // const svgRule = {
+    //   test: /\.svg$/i,
+    //   loader: 'svg-inline-loader'
+    // }
+    // config.module.rules.push(svgRule);
+
     return config;
   },
 };

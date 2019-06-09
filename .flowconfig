@@ -1,7 +1,10 @@
+[declarations]
+
 [ignore]
 .*/node_modules/styled-components/.*
 
 [include]
+./src/components/
 
 [libs]
 
