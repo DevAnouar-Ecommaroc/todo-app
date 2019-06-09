@@ -6,6 +6,9 @@ export type Theme = {
   colors: {
     +[string]: string,
   },
+  borderRadius: {
+    default: string,
+  },
 } & StyledTheme;
 
 const theme: Theme = {
@@ -15,6 +18,9 @@ const theme: Theme = {
     ultraMarineBlue: "#1029FD",
     arcticWhite: "#FBFBFC",
     darkBeige: "#515151",
+  },
+  borderRadius: {
+    default: "4px",
   },
 };
 
